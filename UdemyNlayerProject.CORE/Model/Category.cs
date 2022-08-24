@@ -12,7 +12,7 @@ namespace UdemyNlayerProject.CORE.Model
         }
         public int Id { get; set; } //Hhhh
         public string Name { get; set; }
-        public bool IsDeleted { get; set; }
+        public bool IsDeleted { get; set; } //dfknvlkdsvlks
 
         #region İlişki sütunları
 
