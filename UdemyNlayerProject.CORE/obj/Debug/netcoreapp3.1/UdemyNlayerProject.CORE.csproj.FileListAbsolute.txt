@@ -1,0 +1,10 @@
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNlayerProject.CORE\bin\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.deps.json
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNlayerProject.CORE\bin\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.dll
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNlayerProject.CORE\bin\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.pdb
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNlayerProject.CORE\obj\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.csproj.AssemblyReference.cache
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNlayerProject.CORE\obj\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNlayerProject.CORE\obj\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.AssemblyInfoInputs.cache
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNlayerProject.CORE\obj\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.AssemblyInfo.cs
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNlayerProject.CORE\obj\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.csproj.CoreCompileInputs.cache
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNlayerProject.CORE\obj\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.dll
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNlayerProject.CORE\obj\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.pdb
