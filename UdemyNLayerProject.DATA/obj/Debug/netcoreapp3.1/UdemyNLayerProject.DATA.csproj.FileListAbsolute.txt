@@ -11,3 +11,6 @@ C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNLayerProject.DATA\obj\Debug\
 C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNLayerProject.DATA\bin\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.dll
 C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNLayerProject.DATA\bin\Debug\netcoreapp3.1\UdemyNlayerProject.CORE.pdb
 C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNLayerProject.DATA\obj\Debug\netcoreapp3.1\UdemyNLayerProject.DATA.csproj.CopyComplete
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNLayerProject.DATA\bin\Debug\netcoreapp3.1\UdemyNLayerProject.DATA.runtimeconfig.json
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNLayerProject.DATA\bin\Debug\netcoreapp3.1\UdemyNLayerProject.DATA.runtimeconfig.dev.json
+C:\Users\T480_Home\Desktop\UdemyNLayerProject\UdemyNLayerProject.DATA\obj\Debug\netcoreapp3.1\UdemyNLayerProject.DATA.genruntimeconfig.cache
