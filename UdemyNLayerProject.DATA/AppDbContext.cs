@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using UdemyNlayerProject.CORE.Model;
 using UdemyNLayerProject.DATA.Configurations;
+using UdemyNLayerProject.DATA.Seeds;
 
 namespace UdemyNLayerProject.DATA
 {
@@ -18,6 +19,10 @@ namespace UdemyNLayerProject.DATA
         {
             modelBuilder.ApplyConfiguration(new ProductConfiguration());
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+
+
+            modelBuilder.ApplyConfiguration(new ProductSeed(new int[] {1,2}));
+            modelBuilder.ApplyConfiguration(new CategorySeed(new int[] {1,2}));
         }
     }
 }
