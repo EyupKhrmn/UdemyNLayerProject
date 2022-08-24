@@ -10,7 +10,7 @@ namespace UdemyNlayerProject.CORE.Model
         {
             Products = new Collection<Product>();
         }
-        public int Id { get; set; }
+        public int Id { get; set; } //Hhhh
         public string Name { get; set; }
         public bool IsDeleted { get; set; }
 
