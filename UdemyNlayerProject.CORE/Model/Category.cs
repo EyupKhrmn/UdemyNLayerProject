@@ -10,9 +10,9 @@ namespace UdemyNlayerProject.CORE.Model
         {
             Products = new Collection<Product>();
         }
-        public int Id { get; set; } //Hhhh
+        public int Id { get; set; } 
         public string Name { get; set; }
-        public bool IsDeleted { get; set; } //dfknvlkdsvlks
+        public bool IsDeleted { get; set; } 
 
         #region İlişki sütunları
 
