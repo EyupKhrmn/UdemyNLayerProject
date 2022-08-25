@@ -19,27 +19,27 @@ namespace UdemyNLayerProject.DATA.Seeds
                 new Product
                 {
                     Id = 1, Name = "Telefon", Price = 12000m, Stock = 100,
-                    CategoryId = _ids[0]
+                    CategoryId = _ids[0],IsDeleted = false
                 },
                 new Product
                 {
                     Id = 2, Name = "Bilgisayar", Price = 15000m, Stock = 110,
-                    CategoryId = _ids[0]
+                    CategoryId = _ids[0],IsDeleted = false
                 },
                 new Product
                 {
                     Id = 4, Name = "Küçük Masa", Price = 7000m, Stock = 120,
-                    CategoryId = _ids[1]
+                    CategoryId = _ids[1],IsDeleted = false
                 },
                 new Product
                     {
                         Id = 5, Name = "Orta Masa", Price = 7000m, Stock = 120,
-                        CategoryId = _ids[1]
+                        CategoryId = _ids[1],IsDeleted = false
                     },
                 new Product
                     {
                         Id = 6, Name = "Büyük Masa", Price = 7000m, Stock = 120,
-                        CategoryId = _ids[1]
+                        CategoryId = _ids[1],IsDeleted = false
                     }
                 );
         }

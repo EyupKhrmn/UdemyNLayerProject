@@ -18,12 +18,21 @@ namespace UdemyNLayerProject.API
 {
     public class Startup
     {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
         public IConfiguration Configuration { get; }
-        
+
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:Mssql"].ToString(),
-                o=>o.MigrationsAssembly("UdemyNLayerProject.DATA")));
+            services.AddDbContext<AppDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration["ConnectionStrings:Mssql"].ToString(),
+                    o => { o.MigrationsAssembly("UdemyNLayerProject.DATA"); });
+            });
+
             services.AddScoped<IUnitOfWork, UnitOfwork>();
         }
 

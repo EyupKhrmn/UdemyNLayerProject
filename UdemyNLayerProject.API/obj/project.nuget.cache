@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YrdT1i33dk+IVq2S8ZKSWiKQ9YaMIaBv6nY4P85JpjkFMbhriz6AZi6LHjoXor95bfZhTb+5uBTvn2JGXoCSMg==",
+  "dgSpecHash": "/x4/h7BmPyWPb7dhBw92fVpmttNA6WWQPBE/J1TgklVyB2unSBwtSMsmJyGJ/haMMranopeNwppEfQp5qDcXaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\T480_Home\\Desktop\\UdemyNLayerProject\\UdemyNLayerProject.API\\UdemyNLayerProject.API.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\T480_Home\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.17\\microsoft.entityframeworkcore.design.5.0.17.nupkg.sha512",
     "C:\\Users\\T480_Home\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.17\\microsoft.entityframeworkcore.relational.5.0.17.nupkg.sha512",
     "C:\\Users\\T480_Home\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.17\\microsoft.entityframeworkcore.sqlserver.5.0.17.nupkg.sha512",
+    "C:\\Users\\T480_Home\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.17\\microsoft.entityframeworkcore.tools.5.0.17.nupkg.sha512",
     "C:\\Users\\T480_Home\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\T480_Home\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\T480_Home\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

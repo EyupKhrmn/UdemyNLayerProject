@@ -5,60 +5,61 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using UdemyNLayerProject.API.Repository;
+using UdemyNlayerProject.CORE.Repository;
 
 namespace UdemyNLayerProject.DATA.Repositorys
 {
-    public class Repository<T>: IRepository<T> where T : class
+    public class Repository<TEntity>: IRepository<TEntity> where TEntity : class
     {
         public readonly DbContext _Context;
-        public readonly DbSet<T> _DbSet;
+        public readonly DbSet<TEntity> _DbSet;
 
         public Repository(DbContext Context)
         {
             _Context = Context;
-            _DbSet = Context.Set<T>();
+            _DbSet = Context.Set<TEntity>();
         }
-        public async Task<T> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(int id)
         {
             return await _DbSet.FindAsync(id);
         }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
+        public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
             return await _DbSet.ToListAsync();
         }
 
-        public IEnumerable<T> Where(Expression<Func<T, bool>> predicate)
+        public IEnumerable<TEntity> Where(Expression<Func<TEntity, bool>> predicate)
         {
            return _DbSet.Where(predicate);
         }
 
-        public async Task<T> SingleOrDefaultAsync(Expression<Func<T, bool>> predicate)
+        public async Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate)
         {
             return await _DbSet.SingleOrDefaultAsync(predicate);
         }
 
-        public async Task AddAsync(T entity)
+        public async Task AddAsync(TEntity entity)
         {
             await _DbSet.AddAsync(entity);
         }
 
-        public async Task AddRangeAsync(IEnumerable<T> entities)
+        public async Task AddRangeAsync(IEnumerable<TEntity> entities)
         {
             await _DbSet.AddRangeAsync(entities);
         }
 
-        public void Remove(T entity)
+        public void Remove(TEntity entity)
         {
             _DbSet.Remove(entity);
         }
 
-        public void RemoveRange(IEnumerable<T> entities)
+        public void RemoveRange(IEnumerable<TEntity> entities)
         {
             _DbSet.RemoveRange(entities);
         }
 
-        public T Update(T entity)
+        public TEntity Update(TEntity entity)
         {
             _Context.Entry(entity).State = EntityState.Modified;
             return entity;

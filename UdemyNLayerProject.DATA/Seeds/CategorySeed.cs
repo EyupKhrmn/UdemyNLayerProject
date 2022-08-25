@@ -14,8 +14,8 @@ namespace UdemyNLayerProject.DATA.Seeds
         }
         public void Configure(EntityTypeBuilder<Category> builder)
         {
-            builder.HasData(new Category { Id = _ids[0], Name = "Elektronik" },
-                            new Category{Id = _ids[1],Name = "Ahşap"});
+            builder.HasData(new Category { Id = _ids[0], Name = "Elektronik",IsDeleted = false},
+                            new Category{Id = _ids[1],Name = "Ahşap",IsDeleted = false});
         }
     }
 }
