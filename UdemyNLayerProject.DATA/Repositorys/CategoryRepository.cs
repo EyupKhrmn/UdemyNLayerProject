@@ -8,7 +8,7 @@ namespace UdemyNLayerProject.DATA.Repositorys
     public class CategoryRepository: Repository<Category>,ICategoryRepository
     {
         protected AppDbContext AppDbContext {get => _Context as AppDbContext;}
-        public CategoryRepository(DbContext Context) : base(Context)
+        public CategoryRepository(AppDbContext Context) : base(Context)
         {
         }
 

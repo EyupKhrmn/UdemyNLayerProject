@@ -9,7 +9,7 @@ namespace UdemyNLayerProject.DATA.Repositorys
     public class ProductRepository: Repository<Product>,IProductRepository
     {
         protected AppDbContext AppDbContext {get=> _Context as AppDbContext;}
-        public ProductRepository(DbContext Context) : base(Context)
+        public ProductRepository(AppDbContext Context) : base(Context)
         {
         }
 
