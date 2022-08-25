@@ -10,7 +10,7 @@ namespace UdemyNLayerProject.SERVİCE.Services
     {
         public CategoryService(IUnitOfWork unitOfWork, IRepository<Category> repository) : base(unitOfWork, repository)
         {
-        }
+        }  
 
         public async Task<Category> GetWithProductsByIdAsync(int CategoryId)
         {
