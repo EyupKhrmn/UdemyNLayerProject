@@ -3,7 +3,7 @@ using UdemyNlayerProject.CORE.Model;
 
 namespace UdemyNlayerProject.CORE.Services
 {
-    public interface ICategoryService
+    public interface ICategoryService:IService<Category>
     {
         Task<Category> GetWithProductsByIdAsync(int CategoryId);
     }
